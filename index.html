@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Portfolio</title>
+</head>
+
+<body class="dark">
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="switches">
+      <div id="toggle-theme" class="toggle-theme">
+        <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+        <p id="toggle-text" class="toggle-theme__text">Dark mode</p>
+      </div>
+    </div>
+    <div id="toggle-colors" class="colors">
+      <div data-color="hsl(214 ,84%, 56% )" class="colors__item colors__item--blue"></div>
+
+      <div data-color="hsl(150 , 84%, 56%)" class="colors__item colors__item--green"></div>
+
+      <div data-color="hsl(276 , 84%, 56%)" class="colors__item colors__item--purple"></div>
+
+      <div data-color="hsl(46 , 84%, 56%)" class="colors__item colors__item--orange"></div>
+    </div>
+
+  </header>
+
+
+
+  <main class="main">
+    <section class="column column--left">
+      <!-- PROFILE CARD -->
+      <article class="card card--profile">
+        <div class="card__image-container">
+          <img src="/assets/images/pic cv.png" alt="">
+        </div>
+        <div class="card__header">
+          <h2 class="card__title">Erick Camacho</h2>
+          <p class="card__subtitle">
+            Desarrollador de Software
+          </p>
+        </div>
+        <div class="card__body">
+          <div class="card__link">
+            <i class="fas fa-envelope icon"></i>
+            <a href="mailto:camachoerick984@gmail.com">camachoerick984@gmail</a>
+          </div>
+          <div class="card__link">
+            <i class="fas fa-phone-alt icon"></i>
+            <a href="tel:8298721703">+1 829-872-1703</a>
+          </div>
+          <p class="card__text">
+            Soy un estudiante de desarrollo de software apasionado por crear experiencias digitales memorables. <br>
+            Mi enfoque principal está en el desarrollo web, donde busco combinar diseño intuitivo con funcionalidad sólida. Con una mentalidad ágil y orientada a resultados, aspiro a seguir creciendo como profesional  y dispuesto a trabajar cualquier tecnologia en el emocionante mundo del desarrollo web.
+          </p>
+        </div>
+      </article>
+
+
+     
+
+      <h2 class="card__title">Hobbies</h2>
+      <article class="card card--hobbies">
+        
+        <div class="card__image-container">
+          <img src="assets/images/Basketball.jpg" alt="hobbie">
+        </div>
+        <h3 class="hobbie__title">Basketball</h3>
+        <p class="card__text">En mi tiempo libre suelo ir a la cancha y jugar basket.</p>
+      </article>
+
+
+      <article class="card card--hobbies">
+
+        <div class="card__image-container">
+          <img src="assets/images/Music.png" alt="hobbie">
+        </div>
+        <h3 class="hobbie__title">Escuchar Musica </h3>
+        <p class="card__text">En mi tiempo libre suelo escuchar musica para relajarme.</p>
+      </article>
+    </section>
+
+
+
+    <section class="column column--right">
+      <article class="card">
+        <h2 class="card__title">Front End</h2>
+        <div class="skills">
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Bootstrap</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+
+          </div>
+        </div>
+        </div>
+      </article>
+
+
+
+      <article class="card">
+        <h2 class="card__title">Back End</h2>
+        
+        <div class="skills">
+       
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Node.js</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Express.js</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">ASP.NET Core</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+
+
+      <article class="card">
+        <h2 class="card__title">Database</h2>
+        
+        <div class="skills">
+ 
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">SQL Server</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">MySql</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Sequelize</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/SUPSHOP.png" alt="project" class="card-image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#Bootstrap</span>
+            <span class="project__tag">#JavaScript</span>
+  
+            <span class="project__tag">#Node.js</span>
+            <span class="project__tag">#Express.js</span>
+            <span class="project__tag">#Sequelize.js</span>
+            <span class="project__tag">#Multer</span>
+            <span class="project__tag">#Nodemailer</span>
+          </div>
+          <h2 class="card__title">SUPSHOP</h2>
+          <P class="card__text">
+            SupShop es una tienda en línea dinámica y versátil, diseñada para la venta de una amplia gama de artículos. Desarrollada utilizando tecnologías de vanguardia como HTML, CSS y Bootstrap, garantiza una experiencia de usuario fluida y atractiva en cualquier dispositivo gracias a su diseño responsive.
+            
+            Con funcionalidades avanzadas implementadas con JavaScript, esta tienda ofrece características asincrónicas que mejoran la interactividad y la velocidad de carga, brindando una experiencia de compra sin contratiempos.
+            
+            Su sistema de autenticación seguro y robusto, basado en Node.js y Express.js, permite a los usuarios registrarse y acceder a sus cuentas de forma segura. Además, ofrece roles diferenciados para usuarios y administradores, proporcionando un control total sobre la gestión de productos y pedidos.
+            
+            Utilizando Sequelize.js, SupShop garantiza una gestión eficiente de la base de datos, asegurando la integridad y la confiabilidad de la información del inventario y los usuarios. Además, la integración de Multer facilita la carga de imágenes de productos de manera rápida y sencilla.
+            
+            Con la capacidad de enviar correos electrónicos automatizados gracias a Nodemailer, SupShop ofrece una comunicación efectiva con los usuarios, brindando notificaciones sobre el estado de los pedidos, promociones especiales y más.
+          </P>
+          <div class="buttons">
+            <a href="" class="button button--primary">Demo</a>
+            <a href="" class="button button--ghost">Ghost</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/POKEDEX.png" alt="project" class="card-image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#Bootstrap</span>
+            <span class="project__tag">#JavaScript</span>
+  
+            <span class="project__tag">#Node.js</span>
+            <span class="project__tag">#Express.js</span>
+            <span class="project__tag">#Sequelize.js</span>
+            <span class="project__tag">#Multer</span>
+            <span class="project__tag">#Nodemailer</span>
+          </div>
+          <h2 class="card__title">POKEDEX WEB APP</h2>
+          <P class="card__text">
+            ¡Explora el vasto mundo de los Pokémon con nuestra Pokedex interactiva! Desarrollada con las últimas tecnologías web como HTML, CSS y Bootstrap, nuestra Pokedex garantiza una experiencia de usuario envolvente y receptiva en todos los dispositivos gracias a su diseño adaptable.
+
+Equipada con funcionalidades avanzadas implementadas con JavaScript, nuestra Pokedex ofrece características asincrónicas que mejoran la interactividad y la velocidad de carga, brindando una experiencia de exploración sin igual para los entrenadores Pokémon.
+
+Con un sistema de autenticación seguro y robusto basado en Node.js y Express.js, nuestra Pokedex permite a los usuarios registrarse y acceder a sus cuentas de forma segura. Además, ofrece roles diferenciados para usuarios y administradores, brindando un control total sobre la gestión de Pokémon y datos de usuario.
+
+Utilizando Sequelize.js, nuestra Pokedex garantiza una gestión eficiente de la base de datos, asegurando la integridad y la confiabilidad de la información de los Pokémon y los entrenadores. La integración de Multer facilita la carga de imágenes de Pokémon de manera rápida y sencilla, agregando un toque visual a la experiencia.
+
+Y no olvidemos la comunicación efectiva: nuestra Pokedex puede enviar correos electrónicos automatizados gracias a Nodemailer, manteniendo a los entrenadores informados sobre eventos, actualizaciones y más. En resumen, nuestra Pokedex es la herramienta esencial para todos los entrenadores que buscan explorar el mundo Pokémon de manera completa y emocionante."
+          </P>
+         
+          <div class="buttons">
+            <a href="" class="button button--primary">Demo</a>
+            <a href="" class="button button--ghost">Ghost</a>
+          </div>
+        </div>
+      </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+  </main>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
